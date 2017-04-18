@@ -21,8 +21,10 @@
       "styles": [
         "styles.css"
       ],
-      "stylePreprocessorOptions": [],
-      "scripts": [],
+      "scripts": [
+        { "input": "assets/js/pace.min.js", "output": "pace.js"}
+      ],
+      "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"

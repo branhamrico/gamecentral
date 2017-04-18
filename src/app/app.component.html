@@ -43,10 +43,10 @@
               </div>
           </div>
           <div class="col-lg-8 col-xs-12">
-             <h2>{{selectedGame.Name}}</h2>
-            <div [innerHTML]="selectedGame.Summary"></div>
+              <h2>{{selectedGame.Name}}</h2>
+              <div *ngIf="selectedGame.Summary" [innerHTML]="selectedGame.Summary"></div>
+              <div *ngIf="!selectedGame.Summary">Game Description is currently not available. Please Try again later.</div>
               <button type="button" id="btnClose" class="btn btn-default" (click)="closeModal()"><span> <i class="glyphicon glyphicon-remove-circle"></i> close</span></button>
-
           </div>
         </div>
       </div>
