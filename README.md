@@ -26,3 +26,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# How to Run the Project
+
+1. Run `npm install -g @angular/cli`
+2. Run `npm install` inside this project's folder
+3. Run `bower install` 
+4. Finally, run `ng serve`
+5. Access `http://localhost:4200/`
